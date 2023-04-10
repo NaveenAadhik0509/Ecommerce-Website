@@ -7,7 +7,7 @@ import Shoe1 from "../img/shop-banner.png";
 
 const Contact = () => {
   return (
-    <div className='box5'>
+    <div className='box5'  >
         <div className='box6'>
             <h1>CONTACT NOW</h1>
  <Row>
