@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar------------------------------------------------------------------------------------------------------------- */
+.navbox{
+    width: 100%;
+   background-color: rgb(12, 1, 22);
+}
+.navbox1{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(12, 1, 22);
+}
+.navtext{
+    color: white !important;
+    text-decoration: none;
+}
+
+/* Main----------------------------------------------------------------------------------------------------- */
+.container1{
+    width: 100%;
+    height: 600px ;
+    background-image: url(./img/banner.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    /* position: relative; */
+}
+.container3{
+    width: 80%;
+    margin: 0 auto;
+    color: rgb(168, 102, 16);
+    /* margin-top: 80px; */
+}
+.container3 :first-child {
+    padding-top: 10px;
+}
+.container2{
+    color: antiquewhite;
+}
+.container2 h1{
+    color: aqua;
+    text-align: left;
+    margin-top: 120px;
+    margin-left: 80px;
+    font-size: 40px;
+}
+.container2 h2{
+    color: rgb(38, 110, 110);
+    text-align: left;
+    /* margin-top: 120px; */
+    margin-left: 80px;
+    font-size: 50px;
+}
+.container2 p {
+    text-align:left;
+    margin-left: 80px;
+    margin-top: 20px;
+    
+}
+.c1{
+    margin-left: 80px;
+}
+.c2{
+    margin-left: 30px;
+}
+.c1:hover{
+    color: black !important;
+    background-color:blue !important;
+    background-image: linear-gradient(to right, pink , aqua);
+}
+.c2:hover{
+    color: black !important;
+    background-color:white !important;
+    background-image: linear-gradient(to right, pink , aqua);
+}
+/* .animation1{
+    height: 80px;
+    width: 150px;
+    float: left;
+    background-color: black;
+} */
+.carousel-control-prev-icon , .carousel-control-next-icon { 
+    /* from react bootstrap */
+    background-image: none !important;
+}
+/* Title----------------------------------------------------------------------------------------------------- */
+.box{
+    width: 100%;
+    background-color: azure;
+}
+.box1{
+    width: 80%;
+    /* background-color: burlywood; */
+    height: 700px;
+    margin: 0 auto;
+}
+.box1 h1{
+    padding-top: 50px;
+}
+.box1 p{
+    padding-top: 10px;
+    font-size: 20px;
+    color: rgb(12, 12, 12);
+}
+.car0{
+    position: relative;
+}
+.car{
+    width: 50%;
+    position: absolute;
+    z-index: 1;
+    float: left;
+    left: 80px;
+    top: 20px;
+}
+
+.car1{
+    width: 50%;
+    position: absolute;
+    z-index: 0;
+    float: right;
+    right: 100px;
+    top: 80px;
+}
+.cardtitle{
+    text-align: center;
+}
+.cimg{
+    box-shadow: 5px 5px 2px rgb(104, 114, 117);
+    
+}
+.cimg1{
+    background-image: url(./img/about-img2.png);
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 5px rgb(104, 114, 117);
+
+}
+.b1{
+    top: 420px;
+    position: absolute;
+}
+.b1:hover{
+    color: black !important;
+    background-color: darkslategray !important;
+    background-image: linear-gradient(to right, pink , aqua);
+}
+/* Arraival----------------------------------------------------------------------------------------------------------- */
+.box2{
+    width: 100%;
+    background-color: azure;
+}
+.box3{
+    width: 80%;
+    /* background-color: burlywood; */
+    height: 800px;
+    margin: 0 auto;
+}
+.box3 h1{
+    padding-top: 50px;
+
+}
+.box3 p{
+    padding-top: 10px;
+    font-size: 20px;
+    color: rgb(12, 12, 12);
+}
+.box4{
+background-color: rgb(236, 226, 226);
+}
+.im1{
+   margin-top: 50px;
+   margin-bottom: 50px;
+   margin-left: 100px;
+}
+.te1{
+    margin-top: 50px;
+    line-height: 1;
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-shadow: 2px 2px 4px rgb(32, 9, 236);
+}
+.A1{
+    margin-top: 25px;
+}
+.A1:hover{
+    color: black !important;
+    background-color: black !important;
+    background-image: linear-gradient(to right, pink , aqua);
+}
+/* Contact----------------------------------------------------------------------------------------------------------- */
+.box5{
+    background-color: azure;
+    width: 100%
+}
+.box6{
+    width: 80% ;
+    height: 600px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+}
+.box6 h1{
+    padding-top: 60px;
+}
+/* .for1{
+    background-color: darkgray;
+} */
+.f1{
+    height: 50px;
+}
+.f2{
+    margin-left: 5px;
+    padding: 20px 20px 20px 20px;
+   background-color: white;
+   
+}
+.A2{
+    margin-left: 180px;
+}
+.A2:hover{
+    color: black!important;
+    background-color: white !important;
+    background-image: linear-gradient(to right, pink , aqua);
+}
+/* PRODUCTS------------------------------------------------------------------------------------------------------ */
+.products{
+   margin: 20px auto;
+   width: 80%;
+   display:flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   background-color: rgb(12, 1, 22);
+   border-radius: 5px;
+    
+
+}
+.card{
+    width:300px;
+    height:250px;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 10px;
+    margin: 40px 20px;
+    background-color: white;
+
+}
+.product-image{
+        width:100%;
+        max-width: 300px;
+        height:280px;
+        
+}
+.itemname{
+    height: 40px;
+    overflow:hidden;
+    text-transform: uppercase;
+    margin:5px 10px;
+    font-size: 15px;
+
+}
+.itemprice{
+    margin:5px 10px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.product-add-button{
+    font-weight: 700;
+    font-size: 13px;
+    border-radius: 1px;
+    border: none;
+    outline: none;
+    background-color: darkblue;
+    color:aliceblue;
+    width:100%;
+    height:40px;
+    display: block;
+    margin:15px auto;
+
+}
+:hover.product-add-button{
+    background-color: darkgoldenrod;
+}
